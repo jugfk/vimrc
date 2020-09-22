@@ -26,7 +26,6 @@ set timeout timeoutlen=200 ttimeoutlen=100
 set visualbell                  " don't beep
 set noerrorbells                " don't beep
 set autowrite                   " Save on buffer switch
-set mouse=a                     " list of flags for using the mouse
 set backspace=indent,eol,start  " allow backspacing over everything in insert mode
 set nowrap                      " don't wrap lines
 set tags=tags                   " list of file names to search for tags(global or local to buffer)
@@ -69,11 +68,8 @@ set wmnu                " command-line completion shows a list of matches
 set expandtab           " expand <Tab> to spaces in Insert mode
 set syn=python          " name of syntax highlighting used (local to buffer)
 set modelines=0         " Security
-filetype off            " Helps force plugins to load correctly when it is turned back on below
 "set spell              " highlight spelling mistakes (local to window)
 set debug=              " Display Debugs
-syntax enable           " name of syntax highlighting used
-syntax on               " Turn on syntax highlighting
 set encoding=utf-8      " Encoding
 
 " Formatting
